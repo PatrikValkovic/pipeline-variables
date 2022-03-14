@@ -1,7 +1,7 @@
-name: Deploy AWS prod
+name: Print variables
 
 concurrency:
-  group: deploy-aws-prod
+  group: print-variables
 
 on:
   release:
